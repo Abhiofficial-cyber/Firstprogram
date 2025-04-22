@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/Abhiofficial-cyber/Firstprogram.git, branch: 'main'
+                git url: 'https://github.com/Abhiofficial-cyber/Firstprogram.git', branch: 'main'
             }
         }
 
