@@ -25,7 +25,7 @@ pipeline {
         stage('Run Application') {
             steps {
                 // Replace main.py with your actual Python script if needed
-                sh 'python main.py'
+                sh 'python hello.py'
             }
         }
     }
